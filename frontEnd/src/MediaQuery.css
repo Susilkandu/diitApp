@@ -1,0 +1,83 @@
+@media screen and (max-width:910px) {
+    .TopWelcomeNavLeft {
+        width: 10%;
+    }
+
+    .TopWelcomeNavRight {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #carouselExampleAutoplaying img {
+        height: 30vh !important;
+
+        .TopWelcomeNavLeft {
+            width: 10%;
+        }
+    }
+
+    .TopWelcomeCenter {
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    .TopWelcomeNavRight {
+        width: 90%;
+        font-size: 0.7rem;
+    }
+
+    #navbarNav ul {
+        padding-bottom: 1rem;
+    }
+
+    .hideFont {
+        display: none;
+        visibility: hidden;
+    }
+
+    .showFont {
+        display: block !important;
+        visibility: visible !important;
+        color: black;
+    }
+
+    .social-icons {
+        display: none !important;
+    }
+
+    footer {
+        margin-bottom: 2.8rem !important;
+    }
+
+    .diplomaTable th,
+    #MainLanguageSection table th {
+        font-size: 1rem;
+    }
+
+    .diplomaTable .my-row-color th,
+    #MainLanguageSection .my-row-color th {
+        font-size: 0.6rem;
+    }
+
+    .diplomaTable .container-fluid td,
+    #MainLanguageSection .container-fluid td,
+    .DoeaccCourseContainer .diplomaTable table td {
+        font-size: 0.7rem;
+    }
+
+    .aboutMainImg .MainCarousel img {
+        height: 300px !important;
+    }
+}
+
+@media screen and (max-width:410px) {
+    #shortContact a {
+        font-size: 13px !important;
+    }
+
+    #BranchTypingText {
+        font-size: 1.1rem !important;
+    }
+}
